@@ -28,7 +28,7 @@ ax.plot(dates, lows, color='blue', alpha=0.5)
 ax.fill_between(dates, highs, lows, facecolor='blue', alpha=0.1)
 
 # Formatowanie wykresu.
-ax.set_title("Najwyższa i najniższa temperatura dnia - 2021", fontsize=24)
+ax.set_title("Najwyższa i najniższa temperatura dnia - 2021\nSitka, Alaska", fontsize=24)
 ax.set_xlabel('', fontsize=16)
 fig.autofmt_xdate()
 ax.set_ylabel('Temperatura (F)', fontsize=16)
